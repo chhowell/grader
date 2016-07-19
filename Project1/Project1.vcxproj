@@ -110,6 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="graderFunc.cpp" />
+    <ClCompile Include="Grader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="grader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
